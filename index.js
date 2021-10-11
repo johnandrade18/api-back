@@ -30,6 +30,10 @@ app.use(cookieParser());
     })
 }));
 
+app.get('/', (req, res)=>{
+  res.send('api devjobs')
+})
+
 app.use('/api', router)
 
 const port = process.env.PORT || 4000;

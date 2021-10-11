@@ -2,7 +2,6 @@ import express from 'express';
 import dovent from 'dotenv';
 import morgan from 'morgan';
 import cors from 'cors';
-import helmet from 'helmet';
 require("./config/db")
 import cookieParser from "cookie-parser";
 import session from "express-session";
